@@ -23,7 +23,7 @@
   
 - [Troubleshooting Patch Failures](#troubleshooting-patch-failures)
 
-## Pactching Schedule
+## Patching Schedule
 
 | Environment | Patching Schedule                                             | Notes                      |
 | ----------- | ------------------------------------------------------------- | -------------------------- |
