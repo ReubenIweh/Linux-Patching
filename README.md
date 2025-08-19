@@ -32,7 +32,7 @@
 | Development | Weekly or ad-hoc                                              | Often automated            |
 
 
-**Pre-Patching Preparation**
+## Pre-Patching Preparation
 
 Linux patches are typically scheduled based on the criticality of the patch and business requirements. A typical patching schedule looks like this:
 
