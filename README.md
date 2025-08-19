@@ -32,6 +32,8 @@
 | Development | Weekly or ad-hoc                                              | Often automated            |
 
 
+**Notify Users / Plan Downtime: Send email or Slack notification to teams.**
+
 ## Pre-Patching Preparation
 
 Linux patches are typically scheduled based on the criticality of the patch and business requirements. A typical patching schedule looks like this:
@@ -55,3 +57,15 @@ Before applying any patches, always back up your server! This can be done by cre
   ```rsync -avz / /backup/location/```
 
 **Check System Updates and Health**
+
+Check Current Kernel and Package Versions
+- `uname -r`
+- `rpm -qa --last`   # RHEL/CentOS
+- `dpkg -l`          # Debian/Ubuntu
+
+Checking available updates:
+- `sudo apt update`            # For Debian-based systems (Ubuntu, etc.)
+- `sudo yum check-update`      # For Red Hat-based systems (CentOS, RHEL, Fedora)
+
+Check Uptime:
+- `uptime`
