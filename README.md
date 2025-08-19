@@ -2,7 +2,7 @@
  
 - [Patching Schedule](#patching-schedule)
   
-- [Pre-Patching Preparation](#pre-patching-preparations)
+- [Pre-Patching Preparation](#pre-patching-preparation)
  - Scheduling Patches
  - Backup
  - System Update Check
