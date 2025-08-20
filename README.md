@@ -69,3 +69,30 @@ Checking available updates:
 
 Check Uptime:
 - `uptime`
+
+Check disk space to ensure there’s enough room for patches:
+- `du -hT`
+
+Verify running services and their health (e.g., web server, database):
+
+- `systemctl status httpd    # For Apache web server`
+- `systemctl status mysql    # For MySQL`
+
+  ## During Patching
+
+**RHEL/CentOS**
+
+- `yum check-update`
+- `sudo yum update -y`
+
+**For Debian/Ubuntu-based systems:**
+- `sudo apt upgrade`
+- `sudo apt dist-upgrade  # For upgrading distribution packages`
+
+  **Verify Patch Installation:**
+
+To ensure that patches have been applied successfully, check the versions of the updated packages:
+
+- `dpkg -l | grep [package-name]  # For Debian/Ubuntu`
+- `rpm -qa | grep [package-name]  # For Red Hat/CentOS`
+
